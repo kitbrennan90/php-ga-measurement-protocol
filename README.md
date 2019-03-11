@@ -4,7 +4,7 @@ This simple library lets you send server side track events to Google Analytics.
 
 ## Installation
 
-This library is best installed via composer. Via the command line: `composer require kitbrennan90/ga-measurement-protocol`
+This library is best installed via composer. Via the command line: `composer require kitbrennan90/php-ga-measurement-protocol`
 
 If you are using PSR-4 (or a modern framework), simply import the client at the top of your script:
 ```php
