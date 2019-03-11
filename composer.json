@@ -3,7 +3,7 @@
     "description": "PHP package for interacting with Google Analytics measurement protocol (eg. send page views and events to Google Analytics using your server side).",
     "type": "library",
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.1",
         "guzzlehttp/guzzle": "^6.3"
     },
     "require-dev": {
