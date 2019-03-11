@@ -1,0 +1,26 @@
+{
+    "name": "kitbrennan90/php-ga-measurement-protocol",
+    "description": "PHP package for interacting with Google Analytics measurement protocol (eg. send page views and events to Google Analytics using your server side).",
+    "type": "library",
+    "require": {
+        "php": ">=7.2.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kit Brennan",
+            "email": "kitbrennan90@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "GaMeasurementProtocol\\" : "lib/" }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
