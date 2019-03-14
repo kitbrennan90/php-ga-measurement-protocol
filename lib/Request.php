@@ -87,9 +87,7 @@ class Request
             $requiredParams,
             $this->parameters
         );
-
-        var_dump(http_build_query($paramValues));
-
+        
         $url = $this->getBaseUrl();
 
         $guzzle = new \GuzzleHttp\Client();
